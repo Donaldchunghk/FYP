@@ -1,4 +1,4 @@
-```pythom
+```python
 bl_info = {
         "name": "blender slicer",
         "description": "full colour slicer for project colour blender",
