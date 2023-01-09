@@ -117,7 +117,20 @@ class LayoutDemoPanel(bpy.types.Panel):
         row.operator("object.fcprint")
 
 ##############################################################################################################
-#From oasis controller
+#This part of the file is a modified version Oasis controller.
+#<https://hackaday.io/project/86954-oasis-3dp>
+#Oasis controller is free software: you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by
+#the Free Software Foundation, either version 3 of the License, or
+#(at your option) any later version.
+
+#Oasis controller is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+
+#You should have received a copy of the GNU General Public License
+#along with Oasis controller.  If not, see <https://www.gnu.org/licenses/>.
 class OasisController():
     def __init__(self):
         super(OasisController, self).__init__()        
